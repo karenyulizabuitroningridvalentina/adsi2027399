@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Reservar Hotel</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/bootstrap.css">
+    </head>
+    <div class="container"> </div>
+    <body style="background-image: url(Imagenes/habitacion.jpg) ; background-repeat: no-repeat; background-size: cover">
+     
+        
+    <div style="font-size: 50px; font-family: Arial Black; text-align: center; color : white ; margin:0 auto; margin-bottom: 40px ; "> HOTEL SAN MARTIN</div>
+    <div style="color:white; font-size:20px; font-family:helvetica; text-align: left; background: rgb(136, 141, 144,0.6); width: 410px; height:900px;  margin: 0 auto; border-radius: 5px;"> 
+        <div style="color: #ffffff; margin-bottom: 20px; background: rgb(245, 56, 56,0.7); border-radius: 6px; text-align: center;"><h5>Reservación de habitación</h5> <font size="4%"></div>
+            <div style="padding: 32px;">
+                <label>Tipo de habitación:</label><br/>
+                  <select class="form-control" name="Habitacion">
+                   <option>Individual</option>
+                  <option>Individual</option>
+                  <option>Doble</option>
+                  <option>Triple</option>
+                  <option>Doble de uso individual</option>
+                  <option>Twin</option>
+                  </select>
+                <br/>
+              
+                <label>Fecha de entrada:</label><br/>
+                <input class="form-control" type="date" /><br/>
+                <label>Fecha de salida:</label><br/>
+                <input class="form-control" type="date" /><br/>
+                 <label>N° de personas:</label><br/>
+                <input class="form-control" type="number" /><br/>
+                <label>N° de habitaciones:</label><br/>
+                <input class="form-control" type="number" /><br/>
+                
+                <label>Medios de Pago:</label><br/>   
+                <input name="pago" type="radio" /> Tarjeta credito y debito
+                <br />
+                <input name="pago" type="radio" /> Efectivo
+                 <br/><br/>
+    
+           <img src="Imagenes/medios de pago.png" style="display: block; height: 100px; width: 160px;" />
+            <br><br>
+                
+                <center>
+                <a href="http://localhost:8383/HTML_Prototipos/Menu%20principal.html"<a/> <input class="btn btn-primary" type='button'  value='Cancelar' style=" font-size: 18px ;width: 30%; margin: 0 auto; " >
+            
+                    <a href="http://localhost:8383/HTML_Prototipos/hotel_gracias.html"</a>   <input class="btn btn-danger" type='button'  value='Confirmar' style=" font-size: 18px ;width: 30% ;margin: 0 auto;" >
+           
+                    </center>
+                    </div>
+           
+    </div>
+        
+        <script src="js/jquery-3.4.1.min.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.js"></script>
+    </body>
+</html>
+
+
+
+
+        
